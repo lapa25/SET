@@ -15,7 +15,7 @@ SET5/
 │
 ├── experiment.cpp              # основной эксперимент (ввод параметров через консоль)
 ├── random_stream_gen.h
-├── random_stream_gen.cpp       # генерация слоуваря
+├── random_stream_gen.cpp       # генерация словаря
 ├── hash_func_gen.h
 ├── hash_func_gen.cpp           # генерация хеша
 ├── hyperloglog.h
@@ -84,7 +84,7 @@ cmake --build build
 Скрипт читает `run.csv` и `summary.csv` и сохраняет графики + `analysis.txt`.
 
 ```bash
-python3 scripts/plot_hll.py
+python3 scripts/plot.py
 ```
 
 Дальше он спросит пути к CSV и папку, куда сохранить результаты.
